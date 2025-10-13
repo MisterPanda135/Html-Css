@@ -13,3 +13,18 @@ p:nth-child(4){
 p:nth-child(5){
     color: rgb(30, 255, 0);
 }
+
+a {
+    color: red;
+}
+
+a:only-child {
+    color: gold;
+    font-size: large;
+}
+
+
+
+a:hover {
+    color: purple;
+}
