@@ -1,0 +1,35 @@
+body {
+    background: #ffffff url("https://catinaflat.blog/wp-content/uploads/2023/05/cats-sleeping-together-1024x1024.jpg") no-repeat center top;
+    background-size: 1280px 650px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: blue;
+}
+
+h2 {
+    border-style: dotted;
+    border-color: white;
+    border-spacing: 200px;
+    width: 210px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: auto;
+    background-color: orange;
+}
+
+ul {
+    border-style: solid;
+    border-radius: 1px;
+    background-color: beige;
+    width: 270px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 250px;
+}
+
