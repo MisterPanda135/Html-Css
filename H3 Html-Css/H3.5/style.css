@@ -33,3 +33,14 @@ ul {
     margin-right: 250px;
 }
 
+ul:hover {
+    background-color: rgb(218, 218, 182);
+}
+
+h2:hover {
+    background-color: rgb(203, 133, 2);
+}
+
+h1:hover {
+    background-color: rgb(4, 4, 187);
+}
