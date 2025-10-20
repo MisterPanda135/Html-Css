@@ -1,0 +1,9 @@
+.flex-container{
+    background-color: aqua;
+    font-size: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
