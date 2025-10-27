@@ -1,9 +1,37 @@
+body{
+    margin: 250px;
+    padding: 50px;
+}
+
 .flex-container{
-    background-color: aqua;
-    font-size: 90px;
+    background-color: rgba(0, 102, 255, 0.87);
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-content: flex-end;
 }
 
+.flex-container div{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(247, 251, 252);
+    padding: 35px;
+    margin: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box10, #box11, #box12 {
+    order: -2;
+}
+#box6 {
+    order: -1;
+}
+
+#box1, #box2, #box3, #box4 {
+    order: 1;
+}
