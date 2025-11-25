@@ -3,38 +3,52 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-     'nav header header header header header header'
-     'nav main main main main right right'
-     'nav main main main main right right'
-     'footer footer footer footer footer footer footer  ';
-    grid-gap: 10px;
+     'header header header header header'
+     'nav main main2 main2 right'
+     'nav main main3 main3 right'
+     'footer footer footer footer footer';
+    grid-gap: 0px;
     background-color: #2196F3;
-    padding: 10px;
+    padding: 15px;
 }
 
 .grid-container > div {
-    background-color: rgb(133, 133, 163);
     text-align: center;
-    padding: 100px 10px;
+    padding: 80px 10px;
     font-size: 30px;
 }
 
 .header {
     grid-area: header;
+    background-color: coral;
 }
 
 .nav {
     grid-area: nav;
+    background-color: rgb(230, 233, 233);
 }
 
 .footer {
     grid-area: footer;
+    background-color: azure;
 }
 
 .main {
+    background-color: blueviolet;
     grid-area: main;
 }
 
+.main2 {
+    background-color: blueviolet;
+    grid-area: main2;
+}
+
+.main3 {
+    background-color: rgb(122, 76, 165);
+    grid-area: main3;
+}
+
 .right {
+    background-color: darkmagenta;
     grid-area: right;
 }
