@@ -4,12 +4,12 @@
     display: grid;
     grid-template-areas:
      'header header header header header'
-     'nav main main2 main2 right'
-     'nav main main3 main3 right'
+     'nav main main main2 right'
+     'nav main main main3 right'
      'footer footer footer footer footer';
     grid-gap: 0px;
     background-color: #2196F3;
-    padding: 15px;
+    padding: 5px;
 }
 
 .grid-container > div {
@@ -52,3 +52,4 @@
     background-color: darkmagenta;
     grid-area: right;
 }
+
