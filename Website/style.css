@@ -1,4 +1,6 @@
-
+body {
+    color: white;
+}
 
 .grid-container {
     display: grid;
@@ -17,7 +19,7 @@
 
 .header {
     grid-area: header;
-    background-color: cornflowerblue;
+    background-color: #6E6E6E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,20 +29,24 @@
     border-bottom: solid #000000;
 }
 
-.header p {
-    padding: 10px;
-}
 
-.header p:hover {
-    background-color: rgb(72, 126, 226);
-    border-bottom: solid;
-}
 
 #Nav {
-    text-decoration: none;
     display: flex;
     gap: 20px;
     padding: 15px;
+}
+
+#Nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+#Nav a:hover {
+    color: #000000;
+    background-color: #BAFF39;
+    border-bottom: solid;
 }
 
 #logo {
@@ -51,12 +57,22 @@
 
 .footer {
     grid-area: footer;
-    background-color: azure;
+    background-color: #302f2f;
     padding: 150px;
 }
 
+.hero a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #BAFF39;
+    font-weight: bold;
+    border: solid white 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
 .hero {
-    background-color: cornflowerblue;
+    background-color: #6E6E6E;
     grid-area: hero;
     padding: 300px;
 
