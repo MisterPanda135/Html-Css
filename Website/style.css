@@ -17,7 +17,7 @@ h1 {
 }
 
 .grid-container > div {
-    text-align: center;
+    text-align: center; 
 }
 
 .header {
@@ -81,7 +81,45 @@ main {
 
 }
 
+#projects-container {
+    display: grid;
+    grid-template-areas: 
+    'project1 project2'
+    'project3 project4'
+    'project5 project6';
+    gap: 45px;
+    margin: 150px;
+}
 
+#Project1 {
+    grid-area: project1;
+    background-color: green;
+}
 
+#Project2 {
+    grid-area: project2;
+    background-color: rgb(19, 168, 222);
+}
+
+#Project3 {
+    grid-area: project3;
+    background-color: rgb(19, 168, 222);
+}
+
+#Project4 {
+    grid-area: project4;
+    background-color: rgb(19, 168, 222);
+}
+
+#Project5 {
+    grid-area: project5;
+    background-color: rgb(19, 168, 222);
+}
+
+#Project6 {
+    grid-area: project6;
+    background-color: rgb(19, 168, 222);
+    
+}
 
 
