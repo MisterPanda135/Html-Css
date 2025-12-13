@@ -31,8 +31,6 @@ h1 {
     box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 }
 
-
-
 #Nav {
     display: flex;
     gap: 20px;
@@ -77,48 +75,24 @@ main {
 
 #projects-container {
     display: grid;
-    grid-template-areas: 
-    'project1 project2'
-    'project3 project4'
-    'project5 project6';
-    gap: 45px;
-    margin: 150px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 20px;
 }
 
-#Project1 {
-    grid-area: project1;
-    background-color: green;
+.project {
+    background-color: #38bdf8;
+    padding: 25px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
 }
 
-#Project2 {
-    grid-area: project2;
-    background-color: rgb(19, 168, 222);
-}
-
-#Project3 {
-    grid-area: project3;
-    background-color: rgb(188, 229, 244);
-}
-
-#Project4 {
-    grid-area: project4;
-    background-color: rgb(6, 108, 146);
-}
-
-#Project5 {
-    grid-area: project5;
-    background-color: rgb(60, 75, 81);
-}
-
-#Project6 {
-    grid-area: project6;
-    background-color: rgb(74, 82, 234);
-    
-}
 
 .footer {
-  background-color: #0f1522; /* dark navy */
-  color: #e5e7eb;           /* light gray text */
+  background-color: #0f1522; 
+  color: #e5e7eb;           
   padding: 80px 60px 40px;
 }
 
