@@ -33,9 +33,7 @@ h1 {
 }
 
 #Nav {
-    display: flex;
-    gap: 20px;
-    padding: 15px;
+    display: none;
 }
 
 #Nav a {
@@ -165,7 +163,6 @@ input, select, textarea, button {
 }
 
 textarea {
-  resize: vertical;
   height: 100px;
 }
 
@@ -179,4 +176,12 @@ button {
 
 button:hover {
   background: #023f80;
+}
+
+@media (min-width: 768px){
+   #Nav {
+        display: flex;
+        gap: 20px;
+        padding: 15px;
+    }
 }
