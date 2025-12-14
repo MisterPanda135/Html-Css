@@ -67,8 +67,8 @@ main a {
 
 main {
     grid-area: hero;
-    padding: 300px;
     text-align: center;
+    padding: 300px;
 
 }
 
@@ -99,11 +99,19 @@ main {
   transform: scale(1.1);
 }
 
+.Project-info {
+  margin: 20px auto 450px;
+}
+
+#info1, #info2, #info3, #info4, #info5, #info6 {
+  scroll-margin-top: 80px;
+}
+
 
 .footer {
   background-color: #0f1522; 
   color: #e5e7eb;           
-  padding: 80px 60px 40px;
+  padding: 80px 10px 40px;
 }
 
 .footer-content {
@@ -157,7 +165,8 @@ main {
 }
 
 .contact-container {
-  width: 400px;
+  max-width: 400px;
+  width: 90%;
   margin: 50px auto;
   background: white;
   padding: 20px;
@@ -169,7 +178,7 @@ label {
 }
 
 input, select, textarea, button {
-  width: 350px;
+  width: 100%;
   padding: 10px;
 }
 
@@ -195,4 +204,15 @@ button:hover {
         gap: 20px;
         padding: 15px;
     }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  button {
+    padding: 12px;
+  }
 }
