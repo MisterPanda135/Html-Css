@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 
-h1 {
+h1, h2 {
     color: #1D2939;
 }
 
@@ -10,13 +10,14 @@ h1 {
     display: grid;
     grid-template-areas:
      'header'
-     'hero'
+     'main'
      'footer';
     grid-gap: 0px;
     padding: 5px;
+    grid-template-rows: auto 1fr auto;
 }
 
-.grid-container > div {
+.grid-container > * {
     text-align: center; 
 }
 
@@ -66,9 +67,9 @@ main a {
 }
 
 main {
-    grid-area: hero;
+    grid-area: main;
     text-align: center;
-    padding: 300px;
+    padding: 200px;
 
 }
 
@@ -100,7 +101,7 @@ main {
 }
 
 .Project-info {
-  margin: 20px auto 450px;
+  margin: 20px auto;
 }
 
 #info1, #info2, #info3, #info4, #info5, #info6 {
@@ -206,7 +207,7 @@ button:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 485px) {
   .contact-container {
     margin: 20px auto;
     padding: 15px;
